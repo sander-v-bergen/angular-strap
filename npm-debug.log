@@ -1,0 +1,24 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sander/.nvm/v0.10.35/bin/node',
+1 verbose cli   '/Users/sander/.nvm/v0.10.35/bin/npm',
+1 verbose cli   '-g',
+1 verbose cli   'uninstall',
+1 verbose cli   'gulp-cli' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose lib/node_modules/gulp-cli unbuild
+5 info preuninstall gulp-cli@0.4.0
+6 info uninstall gulp-cli@0.4.0
+7 verbose true,/Users/sander/.nvm/v0.10.35/lib/node_modules,/Users/sander/.nvm/v0.10.35/lib/node_modules unbuild gulp-cli@0.4.0
+8 verbose /Users/sander/.nvm/v0.10.35/bin,[object Object] binRoot
+9 error Refusing to delete: /Users/sander/.nvm/v0.10.35/bin/gulp not in /Users/sander/.nvm/v0.10.35/lib/node_modules/gulp-cli
+File exists: /Users/sander/.nvm/v0.10.35/bin/gulp
+Move it away, and try again.
+10 error System Darwin 15.0.0
+11 error command "/Users/sander/.nvm/v0.10.35/bin/node" "/Users/sander/.nvm/v0.10.35/bin/npm" "-g" "uninstall" "gulp-cli"
+12 error cwd /Users/sander/Development/Github/angular-strap
+13 error node -v v0.10.35
+14 error npm -v 1.4.28
+15 error path /Users/sander/.nvm/v0.10.35/bin/gulp
+16 error code EEXIST
+17 verbose exit [ 1, true ]
